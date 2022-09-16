@@ -1,0 +1,17 @@
+notes: 
+
+Create an api with laravel: 
+
+
+* Setup database in MySql.
+* Config access in laravel/vscode
+* Create routes
+* Create models
+* Insert model into migrations file
+* Create controller
+
+
+// How to create the data model in laravel with PHP artisan
+php artisan make:model Product --migration
+php artisan migrate
+php artisan make:controller ProductController
