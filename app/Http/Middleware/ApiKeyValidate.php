@@ -23,9 +23,6 @@ class ApiKeyValidate
             return response()->json(['message' => 'Sorry, need a valid api-key'], 401);
         }
     
-
-return $next($request);    
-
     }
      
       }
