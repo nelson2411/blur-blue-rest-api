@@ -20,7 +20,7 @@ class ApiKeyValidate
         if($request->header('api_key') == env('API_KEY')) {
             return $next($request);
         }else{
-            return response()->json(['message' => 'Unauthorized'], 401);
+            return response()->json(['message' => 'Sorry, need a valid api-key'], 401);
         }
     
 
